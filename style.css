@@ -1,0 +1,122 @@
+.header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 50px;
+    
+}
+.header-text{
+    width: 50%;
+    text-align: right;
+    align-items: center;
+}
+.h-primary{
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 56px;
+}
+.btn-primary{
+    color:white;
+    background: orange;
+    padding: 15px 30px;
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+}
+/* my failures */
+
+.failures{
+    display: flex;
+    align-items: center;
+    padding: 50px 50px;
+}
+.text-info{
+    padding-left: 100px;
+}
+
+.h-secondary{
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 46px;
+}
+.text-secondary{
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(80, 85, 88);
+}
+.text-primary{
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(80, 85, 88);
+}
+/* my plans */
+
+.middle-h{
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.box{
+    text-align: center;
+}
+/* mindset */
+.mindset{
+    background-image: url(images/gradient2.png), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 350px;
+    align-items: center;
+    margin: 50px 50px;
+}
+.info{
+    color:white;
+    padding-left: 10px;
+}
+.btn-sec{
+    color:rgb(216, 36, 36);
+    background: rgb(255, 255, 255);
+    padding: 15px 30px;
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.icons{
+    color: white;
+}
+.singup{
+    color:white;
+}
+input{
+    border: 1px solid rgb(255, 0, 0);
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.btn-third{
+    color:rgb(255, 255, 255);
+    background: rgb(55, 53, 204);
+    padding: 15px 15px;
+    margin: 10px 0px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
